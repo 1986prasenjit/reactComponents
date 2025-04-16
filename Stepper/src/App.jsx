@@ -1,6 +1,7 @@
 import CheckoutStepper from "./components/Stepper/Stepper";
 import "./App.css";
 import SpeedDialPosi from "./components/SpeedDialPosi/SpeedDialPosi";
+import DropDownMenu from "./components/DropDownMenu/DropDownMenu";
 
 const CHECKOUT_STEPS = [
   {
@@ -29,6 +30,9 @@ function App() {
 
       {/* Speed Dail Component */}
       {/* <SpeedDialPosi /> */}
+
+      {/* Drop Down Menu Component */}
+      <DropDownMenu menuItems={["Home", "AboutUs", "Logout"]} />
     </>
   );
 }
