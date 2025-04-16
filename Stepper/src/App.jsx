@@ -1,6 +1,6 @@
-import CheckoutStepper from "./components/Stepper";
+import CheckoutStepper from "./components/Stepper/Stepper";
 import "./App.css";
-import SpeedDialPosi from "./components/SpeedDialPosi";
+import SpeedDialPosi from "./components/SpeedDialPosi/SpeedDialPosi";
 
 const CHECKOUT_STEPS = [
   {
@@ -28,7 +28,7 @@ function App() {
       {/* <CheckoutStepper stepsConfig={CHECKOUT_STEPS} /> */}
 
       {/* Speed Dail Component */}
-      <SpeedDialPosi />
+      {/* <SpeedDialPosi /> */}
     </>
   );
 }
