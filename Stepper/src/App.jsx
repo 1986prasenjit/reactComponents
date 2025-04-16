@@ -1,6 +1,5 @@
 import CheckoutStepper from "./components/Stepper";
 import "./App.css";
-import SpeedDail from "./components/SpeedDail";
 import SpeedDialPosi from "./components/SpeedDialPosi";
 
 const CHECKOUT_STEPS = [
